@@ -1,0 +1,168 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #DF5E5E ;
+    background-image: url('https://i.postimg.cc/JnSrgRWH/bg-intro-desktop.png');
+}
+#par{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-content: center;
+    color: white; 
+    width: 50%;
+
+    margin-top: 170px;
+    margin-left: 210px;
+    line-height: 25px;
+}
+#par h2 p{
+    display: flex;
+    position: relative;
+    max-width: 600px;
+}
+#p-first{
+    font-size: 20px;
+}
+h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+    line-height: 45px;
+}
+input{
+    width: 350px;
+    height: 45px ;
+    border-radius: 4px;
+    margin-top: 15px;
+    margin-bottom: 9px;
+    margin-left:auto;
+    border: solid 2px #C9D6DF;
+    align-items: center;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+
+#survey_form[val_error] {
+    color: #bb4646;
+    border-color: #bb4646;
+}
+input:hover{
+    border: solid 2px #5d6a72;
+    transform: scale(1.01);
+}
+#form-group{
+    position: absolute;
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    align-content: center;
+
+    background-color: white;
+    padding: 25px 50px 25px 36px;
+    margin-top: 25px;
+    margin-left: 825px;
+    width: 420px;
+    height: 465px;
+    border-radius: 5px;
+    box-shadow: 0px 6px #bb4646;
+}
+#form-group[data-error].input{
+    border-color: #bb4646;
+    color: #bb4646;
+}
+#p-form{
+    margin-top: 6px;
+    margin-bottom: 9px;
+    font-size: 14px;
+    color: #7D7D7D;
+    font-size: 12px;
+    text-align: center;
+}
+#some-link{
+    text-decoration: none;
+    color: #DF5E5E;
+}
+#btn{
+    width: 335px;
+    height: 45px;
+    margin-top: 15px;
+    margin-bottom: 9px;
+    background-color: transparent;
+    color: #29BB89;
+    border: solid 2px #29BB89;
+    border-radius: 5px;
+}
+#btn:hover{
+    transform: scale(1.01);
+    background-color: #29BB89;
+    color: white;
+}
+#porpol{
+    background-color: #7952B3;
+    color: white;
+    width: 420px;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 825px;
+    margin-top: 100px;
+    box-shadow: 0px 6px #bb4646;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+} 
+#text-porpol{
+    margin: auto;
+    text-align: center;
+    padding-top: 5px;
+}
+
+/*::placeholder{
+    padding-left: 15px;
+    font-size: 14px;
+}*/
+
+#fname_error{
+    margin-top: 3px;
+    font-size: 13px;
+    text-align: right;
+    font-style: italic;
+}
+#lname_error{
+    margin-top: 4px;
+    font-size: 13px;
+    text-align: right;
+    font-style: italic;
+}
+#email_error{
+    margin-top: 4px;
+    font-size: 13px;
+    text-align: right;
+    font-style: italic;
+}
+#pass_error{
+    margin-top: 4px;
+    font-size: 13px;
+    text-align: right;
+    font-style: italic;
+}
