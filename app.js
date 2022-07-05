@@ -64,7 +64,7 @@ function emailVerify(){
         email_error.innerHTML = "Looks like this is not a valid email";
         return true;
       }else{
-        email.style.border = "solid 2px #C9D6DF";
+        // email.style.border = "solid 2px #C9D6DF";
         email_error.innerHTML = "";
         return true;
       }
